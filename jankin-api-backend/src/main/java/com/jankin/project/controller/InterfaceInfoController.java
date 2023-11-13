@@ -270,7 +270,6 @@ public class InterfaceInfoController {
      * @return
      */
     @PostMapping("/invoke")
-    @AuthCheck(mustRole = "admin")
     public BaseResponse<Object> invokeInterfaceInfo(@RequestBody InterfaceInfoInvokeRequest interfaceInfoInvokeRequest,
                                                     HttpServletRequest request) {
         if (interfaceInfoInvokeRequest == null || interfaceInfoInvokeRequest.getId() <= 0) {
