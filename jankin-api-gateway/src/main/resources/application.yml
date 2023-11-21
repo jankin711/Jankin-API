@@ -10,24 +10,18 @@ spring:
           uri: http://localhost:8123
           predicates:
             - Path=/api/**
-#        - id: add_request_header_route
-#          uri: http://localhost:8123
-#          predicates:
-#            - Path=/api/**
-#          filters:
-#            - AddRequestHeader=jankin, hello
-#            - AddRequestParameter=name, lgj
-#            - name: CircuitBreaker
-#              args:
-#                name: myCircuitBreaker
-#                fallbackUri: forward:/fallback
-#        - id: jankin-fallback
-#          uri: https://www.xhsysu.edu.cn
-#          predicates:
-#            - Path=/fallback
 logging:
   level:
     org:
       springframework:
         cloud:
           gateway: trace
+dubbo:
+  application:
+    name: dubbo-springboot-demo-provider
+  protocol:
+    name: dubbo
+    port: 22223
+  registry:
+    id: nacos-registry
+    address: nacos://localhost:8848
