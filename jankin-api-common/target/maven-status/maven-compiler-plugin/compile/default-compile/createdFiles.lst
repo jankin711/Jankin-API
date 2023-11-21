@@ -1,0 +1,12 @@
+com\jankin\jankinapicommon\model\entity\InterfaceInfo.class
+com\jankin\jankinapicommon\service\InnerInterfaceInfoService.class
+com\jankin\jankinapicommon\model\enums\PostReviewStatusEnum.class
+com\jankin\jankinapicommon\model\enums\PostGenderEnum.class
+com\jankin\jankinapicommon\model\vo\PostVO.class
+com\jankin\jankinapicommon\model\entity\User.class
+com\jankin\jankinapicommon\service\InnerUserService.class
+com\jankin\jankinapicommon\model\entity\UserInterfaceInfo.class
+com\jankin\jankinapicommon\model\vo\UserVO.class
+com\jankin\jankinapicommon\model\enums\InterfaceInfoStatusEnum.class
+com\jankin\jankinapicommon\service\InnerUserInterfaceInfoService.class
+com\jankin\jankinapicommon\model\entity\Post.class
