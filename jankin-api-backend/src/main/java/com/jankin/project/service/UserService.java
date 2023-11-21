@@ -2,7 +2,7 @@ package com.jankin.project.service;
 
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.jankin.project.model.entity.User;
+import com.jankin.jankinapicommon.model.entity.User;
 
 import javax.servlet.http.HttpServletRequest;
 

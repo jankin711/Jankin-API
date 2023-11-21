@@ -2,19 +2,19 @@ package com.jankin.project.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.jankin.jankinapiclientsdk.client.JankinApiClient;
+import com.jankin.jankinapicommon.model.entity.User;
+import com.jankin.jankinapicommon.model.entity.UserInterfaceInfo;
 import com.jankin.project.annotation.AuthCheck;
-import com.jankin.project.common.*;
+import com.jankin.project.common.BaseResponse;
+import com.jankin.project.common.DeleteRequest;
+import com.jankin.project.common.ErrorCode;
+import com.jankin.project.common.ResultUtils;
 import com.jankin.project.constant.CommonConstant;
 import com.jankin.project.constant.UserConstant;
 import com.jankin.project.exception.BusinessException;
 import com.jankin.project.model.dto.userInterfaceInfo.UserInterfaceInfoAddRequest;
 import com.jankin.project.model.dto.userInterfaceInfo.UserInterfaceInfoQueryRequest;
 import com.jankin.project.model.dto.userInterfaceInfo.UserInterfaceInfoUpdateRequest;
-import com.jankin.project.model.entity.User;
-import com.jankin.project.model.entity.UserInterfaceInfo;
-
-import com.jankin.project.service.InterfaceInfoService;
 import com.jankin.project.service.UserInterfaceInfoService;
 import com.jankin.project.service.UserService;
 import lombok.extern.slf4j.Slf4j;
@@ -25,6 +25,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
+
 
 /**
  * 接口管理

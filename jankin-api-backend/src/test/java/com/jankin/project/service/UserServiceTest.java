@@ -1,6 +1,6 @@
 package com.jankin.project.service;
 
-import com.jankin.project.model.entity.User;
+import com.jankin.jankinapicommon.model.entity.User;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

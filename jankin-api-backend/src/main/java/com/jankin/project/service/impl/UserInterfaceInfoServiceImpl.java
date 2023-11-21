@@ -4,10 +4,10 @@ import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.jankin.project.common.ErrorCode;
 import com.jankin.project.exception.BusinessException;
-import com.jankin.project.model.entity.UserInterfaceInfo;
-import com.jankin.project.service.UserInterfaceInfoService;
 import com.jankin.project.mapper.UserInterfaceInfoMapper;
+import com.jankin.project.service.UserInterfaceInfoService;
 import org.springframework.stereotype.Service;
+import com.jankin.jankinapicommon.model.entity.UserInterfaceInfo;
 
 /**
  * @author Jankin

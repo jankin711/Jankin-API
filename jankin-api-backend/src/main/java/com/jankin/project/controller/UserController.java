@@ -9,7 +9,7 @@ import com.jankin.project.common.ErrorCode;
 import com.jankin.project.common.ResultUtils;
 import com.jankin.project.exception.BusinessException;
 import com.jankin.project.model.dto.user.*;
-import com.jankin.project.model.entity.User;
+import com.jankin.jankinapicommon.model.entity.User;
 import com.jankin.project.model.vo.UserVO;
 import com.jankin.project.service.UserService;
 import org.apache.commons.lang3.StringUtils;

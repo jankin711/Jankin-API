@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.jankin.project.common.ErrorCode;
 import com.jankin.project.exception.BusinessException;
 import com.jankin.project.mapper.InterfaceInfoMapper;
-import com.jankin.project.model.entity.InterfaceInfo;
+import com.jankin.jankinapicommon.model.entity.InterfaceInfo;
 import com.jankin.project.service.InterfaceInfoService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;

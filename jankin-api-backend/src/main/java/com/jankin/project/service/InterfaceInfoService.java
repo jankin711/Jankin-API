@@ -1,7 +1,7 @@
 package com.jankin.project.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.jankin.project.model.entity.InterfaceInfo;
+import com.jankin.jankinapicommon.model.entity.InterfaceInfo;
 
 /**
 * @author Jankin

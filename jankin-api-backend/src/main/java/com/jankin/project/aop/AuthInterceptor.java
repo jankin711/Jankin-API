@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.core.toolkit.CollectionUtils;
 import com.jankin.project.annotation.AuthCheck;
 import com.jankin.project.common.ErrorCode;
 import com.jankin.project.exception.BusinessException;
-import com.jankin.project.model.entity.User;
+import com.jankin.jankinapicommon.model.entity.User;
 import com.jankin.project.service.UserService;
 import org.apache.commons.lang3.StringUtils;
 import org.aspectj.lang.ProceedingJoinPoint;

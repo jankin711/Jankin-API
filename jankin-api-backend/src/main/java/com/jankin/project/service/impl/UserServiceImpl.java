@@ -6,7 +6,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.jankin.project.exception.BusinessException;
 import com.jankin.project.common.ErrorCode;
 import com.jankin.project.mapper.UserMapper;
-import com.jankin.project.model.entity.User;
+import com.jankin.jankinapicommon.model.entity.User;
 import com.jankin.project.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;

@@ -1,7 +1,7 @@
 package com.jankin.project.mapper;
 
-import com.jankin.project.model.entity.UserInterfaceInfo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.jankin.jankinapicommon.model.entity.UserInterfaceInfo;
 
 /**
 * @author Jankin

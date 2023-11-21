@@ -13,7 +13,7 @@ import com.jankin.project.model.dto.post.PostAddRequest;
 import com.jankin.project.model.dto.post.PostQueryRequest;
 import com.jankin.project.model.dto.post.PostUpdateRequest;
 import com.jankin.project.model.entity.Post;
-import com.jankin.project.model.entity.User;
+import com.jankin.jankinapicommon.model.entity.User;
 import com.jankin.project.service.PostService;
 import com.jankin.project.service.UserService;
 import lombok.extern.slf4j.Slf4j;
