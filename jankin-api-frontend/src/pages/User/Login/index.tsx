@@ -151,8 +151,8 @@ const Login: React.FC = () => {
             maxWidth: '75vw',
           }}
           logo={<img alt="logo" src="/logo.svg" />}
-          title="Ant Design"
-          subTitle={'Ant Design 是西湖区最具影响力的 Web 设计规范'}
+          title="Jankin API"
+          subTitle={'一个 API 接口开放调用平台'}
           initialValues={{
             autoLogin: true,
           }}
