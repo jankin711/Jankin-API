@@ -1,4 +1,4 @@
-# jankin-api
+# Jankin-API
 > 基于 React + Spring Boot + Dubbo + Gateway 的 API 接口开放调用平台。管理员可以接入并发布接口，可视化各接口调用情况；用户可以开通接口调用权限、浏览接口及在线调试，并通过客户端 SDK 轻松调用接口。
 
 
@@ -21,7 +21,7 @@
 
 ### 启动方式：
 
-1. 启动 Nacos、Mysql
+1. 启动 Nacos、MySql
 2. 将公共服务 jankin-api-common 以及客户端 jankin-api-client-sdk 安装到本地仓库
 3. 启动后端：
    - jankin-api-backend：7529端口，后端接口管理（上传、下线、用户登录）http://localhost:7529/api/doc.html
